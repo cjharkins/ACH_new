@@ -7,7 +7,6 @@ $(document).ready(function(){
     $('.overlay').hide();
 
     $('.portfolio').mouseenter(function(e){
-        console.log(this);
         $(this).addClass('scale');
         $('> div',this).fadeIn();
     }).mouseleave(function(){

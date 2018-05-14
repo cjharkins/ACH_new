@@ -219,8 +219,9 @@
 	</div>
 
 	<div id="confirm">
-        <h1 class="">Thank you, <?php echo $_POST['email'] ?>, your e-mail was sent!</h1>
+        <h2 class="">Thank you, <?php echo $_POST['email'] ?>, your e-mail was sent!</h2>
     </div>
+	
 	<script>
 			var myVar;
 			

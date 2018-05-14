@@ -257,9 +257,6 @@ nav {
 .skill-list {
 	padding: 15px;
 }
-
-
-
 .scale {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -283,18 +280,31 @@ nav {
   background-repeat: no-repeat;
   background-position-y: 50%;
 }
-.portfolio-left {
+.portfolio-img {
   height: 300px;
+}
+.portfolio-wrapper:nth-child(2) .portfolio-img:first-child {
   background: url('../images/crtSandbox.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
-.portfolio-right {
+.portfolio-wrapper:nth-child(2) .portfolio-img:nth-child(2) {
+  background: url('../images/simon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio-wrapper:nth-child(3) .portfolio-img:first-child {
+  background: url('../images/pomodoro.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio-wrapper:nth-child(3) .portfolio-img:nth-child(2) {
   height: 300px;
   background: url('../images/jumbotron-bg-img-forWeb.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .overlay {
   background: rgba(0,0,0,0.7);
   height: 100%;
@@ -307,15 +317,7 @@ nav {
   left: 100px;
   width: 300px;
 }
-.overlay-content-portfolio-left {
-  color: white;
-  opacity: 1;
-  position: absolute;
-  top: 100px;
-  left: 50px;
-  width: 300px;
-}
-.overlay-content-portfolio-right {
+.overlay-content-portfolio {
   color: white;
   opacity: 1;
   position: absolute;
@@ -411,6 +413,9 @@ footer {
     left: 50px;
     width: 300px;
   }
+  .portfolio-img {
+   background-position-x: 50%; 
+  }
 }
 
 #loader {
@@ -461,3 +466,14 @@ footer {
 #body-contents {
   display: none;
 }
+
+
+#confirm {
+  margin: 100px auto 0;
+  width: 400px;
+}
+
+
+
+
+

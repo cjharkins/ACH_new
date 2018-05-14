@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cory Harkins</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />  
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -11,7 +12,7 @@
 	<div class="background-hero">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark ">
-		  <a class="navbar-brand" href="index.html">
+		  <a class="navbar-brand" href="http://artofcoryharkins.com">
 				<img src="images/logo.png" alt="logo" height="40px" width="37.5px" />
 		  	<span id="brand-first-name">CORY<span id="brand-last-name">HARKINS</span>
 		  	</span>
@@ -57,7 +58,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				Here's some more stuff
+				<h2>I design, code, draw, paint, sing (poorly), mentor, volunteer, learn, and love deeply.</h2>
 			</div>
 		</div>
 	</div>
@@ -128,30 +129,55 @@
 			</div>
 		</div>
 		<div class="container">
-
 			<div class="row portfolio-wrapper">
 				<div class="col-12 portfolio portfolio-top no-padding mb-1">
 					<div class="overlay col-12">
-						<div class="overlay-content-portfolio-top">
-							<h3>Frequency Music App</h3>
-							<p>Click to view project status, prototypes, and mock ups of the Frequency application.</p>
-						</div>
+						<a href="https://github.com/cjharkins/frequency-2.0.0/wiki/Frequency-v2-Project-Outline">
+							<div class="overlay-content-portfolio-top">
+								<h3>Frequency Music App</h3>
+								<p>Click to view project status, prototypes, and mock ups of the Frequency application.</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="row portfolio-wrapper">
-				<div class="col-12 col-md-6 portfolio no-padding portfolio-left">
-					<div class="overlay col-12">
-						<div class="overlay-content-portfolio-left">
-							<h3>CRT Redesign</h3>
-							<p>High-fidelity Prototype/Concept of the new CRT website</p>
+					<div class="col-12 col-md-6 portfolio no-padding portfolio-img">
+						<div class="overlay col-12">
+						<a href="https://github.com/cjharkins/2018_CRT_sandbox">
+							<div class="overlay-content-portfolio">
+								<h3>CRT Redesign</h3>
+								<p>High-fidelity Prototype/Concept of the new CRT website</p>
+							</div>
+							</a>
 						</div>
 					</div>
+				<div class="col-12 col-md-6 portfolio no-padding portfolio-img">
+					<div class="overlay col-12">
+						<a href="https://codepen.io/CJHARKINS/full/NaqWBy/">
+							<div class="overlay-content-portfolio">
+								<h3>Simon</h3>
+								<p>FCC Project displaying my CSS3 skills</p>
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="col-12 col-md-6 portfolio no-padding portfolio-right">
+			</div>
+			<div class="row portfolio-wrapper">
+				<div class="col-12 col-md-6 portfolio no-padding portfolio-img">
+					<div class="overlay col-12">
+						<a href="https://codepen.io/CJHARKINS/full/eGXyJZ/">
+							<div class="overlay-content-portfolio">
+								<h3>Pomodoro Timer</h3>
+								<p>Flexing my SVG animation muscles with a pomodoro clock challenge.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 portfolio no-padding portfolio-img">
 					<div class="overlay col-12">
 						<a href="https://codepen.io/collection/XpRzmQ/">
-							<div class="overlay-content-portfolio-right">
+							<div class="overlay-content-portfolio">
 								<h3>Sandboxes</h3>
 								<p>Click to view projects, prototypes, and mock ups.</p>
 							</div>
@@ -172,7 +198,7 @@
 					<div class="container">
 						<div class="row portfolio-wrapper">
 							<div class="col-12 col-md-4">
-								<h6>About me</h4>
+								<h6>About me</h6>
 								<p class="footer-p">An extreme believer in continuous development/learning and Justice League member (I had to work while the team made the movie... responsibilities right?) I spent 10 years of my life travelling to far away lands in search of what makes me happy, and code found me! 
 									<br>
 									<br>
@@ -182,7 +208,7 @@
 							<div class="col-12 col-md-4">
 								<p class="footer-p">Shoot me a message about anything, work is good, but I'm always down for good conversation and coffee!</p>
 							</div>
-							<div class="col-12 col-md-4">    
+							<div id="contact" class="col-12 col-md-4">    
 									<?php include('partials/_form.php') 
 									?>
 									<?php include('partials/_form-script.php') 
